@@ -8,7 +8,7 @@
     android:paddingStart="8dp"
     android:paddingEnd="8dp"
     android:background="@drawable/fondo_degradado"
-    tools:context=".Main">
+    tools:context="com.example.ecoreciclaaa.MainActivity">
 
     <!-- Icono de encendido -->
     <ImageView
@@ -19,7 +19,7 @@
         android:contentDescription="@string/icon_power"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="8dp" />
+        android:layout_marginTop="30dp" />
 
     <!-- Titulo de bienvenida -->
 
@@ -32,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="55dp"
         android:text="Hola Sofia!"
         android:textColor="@android:color/white"
         android:textSize="18sp"
@@ -43,7 +43,7 @@
         android:id="@+id/icon_notification"
         android:layout_width="24dp"
         android:layout_height="24dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="24dp"
         android:contentDescription="@string/icon_notification"
         android:src="@drawable/ic_notification"
@@ -54,9 +54,9 @@
     <EditText
         android:id="@+id/search_bar"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="10dp"
         android:background="@drawable/search_background"
         android:drawableLeft="@drawable/ic_search"
@@ -71,7 +71,7 @@
         android:id="@+id/welcome_banner"
         android:layout_width="0dp"
         android:layout_height="100dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/search_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -84,7 +84,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Bienvenido!"
-            android:textSize="14sp"
+            android:textSize="15sp"
             android:textColor="@android:color/white"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -96,7 +96,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="“Pequeños Cambios, Gran Impacto.”"
-            android:textSize="12sp"
+            android:textSize="13sp"
             android:textColor="@android:color/white"
             app:layout_constraintTop_toBottomOf="@id/banner_text_title"
             app:layout_constraintStart_toStartOf="parent"
@@ -117,14 +117,15 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+
     <!-- Sección de categorías -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/categories_grid"
         android:layout_width="0dp"
         android:layout_height="616dp"
         android:layout_gravity="center"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -132,12 +133,23 @@
         app:layout_constraintTop_toBottomOf="@id/welcome_banner">
 
         <!-- Fila 1 -->
+        <TextView
+            android:id="@+id/txt_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Categorias"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            tools:ignore="MissingConstraints" />
 
         <LinearLayout
             android:id="@+id/btn_my_account_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="40dp"
             android:orientation="vertical"
             app:layout_constraintEnd_toStartOf="@+id/btn_map_layout"
             app:layout_constraintStart_toStartOf="parent"
@@ -145,8 +157,8 @@
 
             <ImageButton
                 android:id="@+id/btn_my_account"
-                android:layout_width="130dp"
-                android:layout_height="105dp"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
                 android:layout_margin="4dp"
                 android:background="@drawable/search_background"
                 android:contentDescription="@string/my_account"
@@ -161,7 +173,7 @@
                 android:gravity="center"
                 android:text="Mi Cuenta"
                 android:textColor="@android:color/white"
-                android:textSize="13sp" />
+                android:textSize="15sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -170,19 +182,20 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:orientation="vertical"
+            android:layout_marginTop="40dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/btn_my_account_layout"
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageButton
                 android:id="@+id/btn_map"
-                android:layout_width="130dp"
-                android:layout_height="105dp"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
                 android:layout_margin="4dp"
                 android:background="@drawable/search_background"
                 android:contentDescription="@string/map"
                 android:scaleType="centerInside"
-                android:src="@drawable/ic_map" />
+                android:src="@drawable/ic_record" />
 
             <TextView
                 android:id="@+id/txt_map"
@@ -190,9 +203,36 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:gravity="center"
-                android:text="Mapa"
+                android:text="Registro"
                 android:textColor="@android:color/white"
-                android:textSize="13sp" />
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <!-- Fila 2 -->
+        <LinearLayout
+            android:id="@+id/btn_community_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toStartOf="@+id/btn_business_layout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_my_account_layout">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_business_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn_community_layout"
+            app:layout_constraintTop_toBottomOf="@+id/btn_map_layout">
+
+
         </LinearLayout>
 
         <!-- Fila 3 -->
@@ -201,20 +241,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="20dp"
             android:orientation="vertical"
             app:layout_constraintEnd_toStartOf="@+id/btn_tips_layout"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn_my_account_layout">
+            app:layout_constraintTop_toBottomOf="@+id/btn_community_layout">
 
             <ImageButton
                 android:id="@+id/btn_statistics"
-                android:layout_width="130dp"
-                android:layout_height="105dp"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
                 android:layout_margin="4dp"
                 android:background="@drawable/search_background"
                 android:contentDescription="@string/statistics"
                 android:scaleType="centerInside"
-                android:src="@drawable/ic_statistics" />
+                android:src="@drawable/ic_statistic" />
 
             <TextView
                 android:id="@+id/txt_statistics"
@@ -224,7 +265,7 @@
                 android:gravity="center"
                 android:text="Estadísticas"
                 android:textColor="@android:color/white"
-                android:textSize="13sp" />
+                android:textSize="15sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -233,14 +274,15 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:orientation="vertical"
+            android:layout_marginTop="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/btn_statistics_layout"
-            app:layout_constraintTop_toBottomOf="@+id/btn_map_layout">
+            app:layout_constraintTop_toBottomOf="@+id/btn_business_layout">
 
             <ImageButton
                 android:id="@+id/btn_tips"
-                android:layout_width="130dp"
-                android:layout_height="105dp"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
                 android:layout_margin="4dp"
                 android:background="@drawable/search_background"
                 android:contentDescription="@string/tips"
@@ -253,13 +295,12 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:gravity="center"
-                android:text="Tips"
+                android:text="Consejos"
                 android:textColor="@android:color/white"
-                android:textSize="13sp" />
+                android:textSize="15sp" />
         </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
 
