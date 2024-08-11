@@ -51,6 +51,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <!-- Banner de bienvenida -->
+    <!-- comentario prueba -->
     <EditText
         android:id="@+id/search_bar"
         android:layout_width="0dp"
