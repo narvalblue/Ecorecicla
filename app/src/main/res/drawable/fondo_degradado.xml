@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fondo sólido de color de fondo -->
+    <item>
+        <color android:color="@color/black" />
+    </item>
+
+    <!-- Degradado en la parte superior izquierda -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="@color/verde2"
+                android:centerColor="@color/verde"
+                android:endColor="@color/verde2"
+                android:angle="45"
+                android:gradientRadius="500"
+                android:type="sweep"
+                android:centerX="0.1"
+                android:centerY="0.1"/>
+        </shape>
+    </item>
+
+    <!-- Degradado en la parte inferior derecha -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="@color/verde2"
+                android:centerColor="@color/black"
+                android:angle="45"
+                android:gradientRadius="500"
+                android:type="sweep"
+                android:centerX="0.9"
+                android:centerY="0.9"/>
+        </shape>
+    </item>
+</layer-list>
