@@ -23,4 +23,5 @@ public class Inicio extends AppCompatActivity {
             }
         }, 3000); /*3 segundos*/
     }
+
 }

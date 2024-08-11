@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp"
+    android:background="@drawable/fondo_degradado"
+    tools:context=".Calcular">
+
+    <!-- Sección de categorías -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registro de reciclaje"
+                android:textSize="24sp"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Metal Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/search_background"> <!-- Fondo personalizado -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Metal"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"/>
+
+                <EditText
+                    android:id="@+id/metal_weight"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="Peso (Kg)"
+                    android:inputType="numberDecimal"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:layout_marginTop="8dp"/>
+
+                <EditText
+                    android:id="@+id/metal_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="Precio (COP)"
+                    android:inputType="numberDecimal"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:id="@+id/metal_profit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ganancia: 0.0 COP"
+                    android:textColor="@android:color/holo_green_light"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <!-- Cartón Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/search_background"> <!-- Fondo personalizado -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cartón"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"/>
+
+                <EditText
+                    android:id="@+id/carton_weight"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="Peso (Kg)"
+                    android:inputType="numberDecimal"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:layout_marginTop="8dp"/>
+
+                <EditText
+                    android:id="@+id/carton_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="Precio (COP)"
+                    android:inputType="numberDecimal"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:id="@+id/carton_profit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ganancia: 0.0 COP"
+                    android:textColor="@android:color/holo_green_light"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+
+            <!-- Papel Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/search_background"> <!-- Fondo personalizado -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Papel"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"/>
+
+                <EditText
+                    android:id="@+id/paper_weight"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="Peso (Kg)"
+                    android:inputType="numberDecimal"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:layout_marginTop="8dp"/>
+
+                <EditText
+                    android:id="@+id/paper_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="Precio (COP)"
+                    android:inputType="numberDecimal"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:id="@+id/paper_profit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ganancia: 0.0 COP"
+                    android:textColor="@android:color/holo_green_light"
+                    android:layout_marginTop="8dp"/>
+
+            </LinearLayout>
+
+            <!-- Ganancia Total -->
+            <TextView
+                android:id="@+id/total_profit"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:text="Ganancia total: 0.0 COP"
+                android:background="@drawable/search_background"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"/>
+
+            <!-- Botones -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp">
+
+                <Button
+                    android:id="@+id/registerButton"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/search_background"
+                    android:layout_height="wrap_content"
+                    android:text="Registrar"/>
+
+                <Button
+                    android:id="@+id/resetButton"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Reiniciar"
+                    android:background="@drawable/search_background"
+                    android:layout_marginStart="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
