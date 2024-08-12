@@ -27,7 +27,8 @@ Los usuarios se sentirán empoderados al ver su progreso y recibir consejos que 
 ![Atenea](https://github.com/user-attachments/assets/b4ee4cca-571b-42e1-a475-ef2fdb17a06a)
 
 ## Sección de estadisticas
-<img src="https://github.com/user-attachments/assets/0cda3c84-b16d-4590-adf8-54e4165cd0a5" alt= "Total en gramos y total por cada material" widht="300"/>
+
+<img src="https://github.com/user-attachments/assets/0cda3c84-b16d-4590-adf8-54e4165cd0a5" alt= "Total en gramos y total por cada material" width="300"/>
 
 <img src="https://github.com/user-attachments/assets/8fbc45e0-a282-4c36-8a58-805e49b2741c" alt="screenshot" width="300"/>
   
