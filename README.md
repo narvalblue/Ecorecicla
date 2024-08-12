@@ -31,5 +31,8 @@ Los usuarios se sentirán empoderados al ver su progreso y recibir consejos que 
 <img src="https://github.com/user-attachments/assets/0cda3c84-b16d-4590-adf8-54e4165cd0a5" alt= "Total en gramos y total por cada material" width="300"/>
 
 <img src="https://github.com/user-attachments/assets/8fbc45e0-a282-4c36-8a58-805e49b2741c" alt="screenshot" width="300"/>
+
+<img src="https://github.com/user-attachments/assets/3ba88eb5-bb22-47c2-a7ab-4eb723a09c5d" alt="Tabla de de valores" width="300"/>
+
   
 
