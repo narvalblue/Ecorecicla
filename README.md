@@ -38,7 +38,7 @@ Los usuarios se sentirán empoderados al ver su progreso y recibir consejos que 
 
 <img src= "https://github.com/user-attachments/assets/82b317b6-b73c-459d-9093-bcf55889897f" alt="Spinner)" width="300"/>
 
-<img src= "https://github.com/user-attachments/assets/767f213d-b958-4549-9de0-ccc22f186287" alt="tabla de valores(modohorizontal)" width="300"/>
+
 
 <img src= "https://github.com/user-attachments/assets/39716320-f2ce-4a43-8cad-9b713f174e63" alt="EditText" width="300"/>
 
