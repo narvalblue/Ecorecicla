@@ -38,19 +38,19 @@ Los usuarios se sentirán empoderados al ver su progreso y recibir consejos que 
 
 <img src= "https://github.com/user-attachments/assets/82b317b6-b73c-459d-9093-bcf55889897f" alt="Spinner)" width="300"/>
 
-
-
 <img src= "https://github.com/user-attachments/assets/39716320-f2ce-4a43-8cad-9b713f174e63" alt="EditText" width="300"/>
 
 <img src= "https://github.com/user-attachments/assets/f40cb2b4-bd27-4b25-aabd-937b5c16b897" alt="AddtoTable" width="300"/>
+
+<img src= "https://github.com/user-attachments/assets/301c6e55-74d1-41c0-8950-882364923c38" alt="Animation in the statistics method" width="300"/>
+
+<img src= "https://github.com/user-attachments/assets/37307bf9-36bb-46a5-8f4a-da3cc7f086cb" alt="Animation in the BarChart" width="300"/>
 
 <img src= "https://github.com/user-attachments/assets/98acbeef-69f5-44fc-99f4-c4c2029be978" alt="FullTable" width="300"/>
 
 <img src= "https://github.com/user-attachments/assets/a13aa319-1265-4419-836a-a98dd7f69079" alt="Delete Method" width="300"/>
 
-<img src= "https://github.com/user-attachments/assets/301c6e55-74d1-41c0-8950-882364923c38" alt="Animation in the statistics method" width="300"/>
 
-<img src= "https://github.com/user-attachments/assets/37307bf9-36bb-46a5-8f4a-da3cc7f086cb" alt="Animation in the BarChart" width="300"/>
 
 
 
