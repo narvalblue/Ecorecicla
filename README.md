@@ -18,7 +18,7 @@
 
 ## Beneficios para los usuarios
 
-### Empoderamiento: 
+#### Empoderamiento: 
 Los usuarios se sentirán empoderados al ver su progreso y recibir consejos que les ayudarán a mejorar sus prácticas sostenibles.
 
 
