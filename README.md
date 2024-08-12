@@ -29,5 +29,5 @@ Los usuarios se sentirán empoderados al ver su progreso y recibir consejos que 
 ## Sección de estadisticas
 
 <img src= "(https://github.com/user-attachments/assets/a043a55d-a66e-4455-9f0f-e8015d60c9c3)" alt= "Total en gr y porcentajes de material reciclado" width="300"/>
-<img src= "![screenshot](https://github.com/user-attachments/assets/8fbc45e0-a282-4c36-8a58-805e49b2741c)"  width="500"/>
+![screenshot](https://github.com/user-attachments/assets/8fbc45e0-a282-4c36-8a58-805e49b2741c)"  
 
