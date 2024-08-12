@@ -50,6 +50,14 @@ Los usuarios se sentirán empoderados al ver su progreso y recibir consejos que 
 
 <img src= "https://github.com/user-attachments/assets/a13aa319-1265-4419-836a-a98dd7f69079" alt="Delete Method" width="300"/>
 
+## Caracteriscas de la sección
+
+Esta sección de la aplicación permite a los usuarios  **crear**, 
+**eliminar** y **actualizar** los valores de los materiales de reciclaje. Además, ofrece una comparativa detallada entre el mes actual y el mes anterior, proporcionando una visión clara del progreso en las actividades de reciclaje.
+
+
+
+
 
 
 
