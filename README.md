@@ -52,8 +52,7 @@ Los usuarios se sentirán empoderados al ver su progreso y recibir consejos que 
 
 ## Caracteriscas de la sección
 
-Esta sección de la aplicación permite a los usuarios  **crear**, 
-**eliminar** y **actualizar** los valores de los materiales de reciclaje. Además, ofrece una comparativa detallada entre el mes actual y el mes anterior, proporcionando una visión clara del progreso en las actividades de reciclaje.
+Esta sección de la aplicación permite a los usuarios  **crear**, **eliminar** y **actualizar** los valores de los materiales de reciclaje. Además, ofrece una comparativa detallada entre el mes actual y el mes anterior, proporcionando una visión clara del progreso en las actividades de reciclaje.
 
 
 
