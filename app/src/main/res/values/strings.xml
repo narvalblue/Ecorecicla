@@ -12,6 +12,37 @@
     <string name="map">Mapa</string>
     <string name="statistics">Estadísticas</string>
     <string name="tips">Tips</string>
+    <string name="my_text">ECO</string>
+    <string name="my_text2">Recicla</string>
+    <string name="my_text3">Empresas</string>
+    <string name="my_text4">Árbol Verde SAS</string>
+    <string name="my_text4.1">Dirección: Calle 71b sur #14 55 Localidad ciudad Bolívar</string>
+    <string name="my_text4.2">Teléfonos: 310 870 10 73 - 312 516 32 50</string>
+    <string name="my_text4.3">Correo Electrónico: contacto@reciclajearbolverde.com</string>
+    <string name="my_text5">Asociación Nacional de Recicladores</string>
+    <string name="my_text5.1">Dirección: Diagonal 31B Sur # 26A - 83 Barrio el Libertador (Bogotá D.C.)</string>
+    <string name="my_text5.2">Teléfonos: (57+1) 905 49 97</string>
+    <string name="my_text5.3">Correo Electrónico: anrrecicladores@gmail.com</string>
+    <string name="my_text6">Ecopositiva</string>
+    <string name="my_text6.1">Dirección:  CALLE 18 # 65 B – 80, BOGOTÁ D.C., COLOMBIA</string>
+    <string name="my_text6.2">Teléfonos:  (601) 390 57 89 – +57 305 304 1093</string>
+    <string name="my_text6.3">Correo Electrónico: m.giraldo@ecopositiva.com, a.rojas@ecopositiva.com</string>
+    <string name="identificacion_datos">Identificación de datos </string>
+    <string name="identificacion_datos1">¿Cuál tipo de material vas a registrar hoy?</string>
+    <string name="identificacion_datos2">Materiales Reciclados</string>"
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="my_text7">Acebri</string>
+    <string name="my_text7.1">Dirección: Carrera 1 N° 3 -52 Bodega 11 -Barrio El Lucero, Parque Industrial TECPLAS, Mosquera, Cundinamarca – Colombia</string>
+    <string name="my_text7.2">Teléfonos: 601 894 1001 - 57 316 286 3685</string>
+    <string name="my_text8">MUTA</string>
+    <string name="my_text8.1">Dirección: CARRERA 53 3 5, GALAPA, ATLANTICO</string>
+    <string name="my_text8.2">Teléfono: 3213677898</string>
+    <string name="my_text9">Reciclaje Capital</string>
+    <string name="my_text9.1">Dirección: Calle 15 # 1A – 70, Funza Cundinamarca, CP 250020</string>
+    <string name="my_text9.2">Teléfono: 300 4565829</string>
+    <string name="my_text9.3">Correo Electrónico: gerencia@reciclajecapital.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris

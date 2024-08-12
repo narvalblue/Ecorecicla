@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_degradado"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textone"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="63dp"
+        android:background="@drawable/textview_border"
+        android:text="@string/my_text"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="82dp"
+        android:background="@drawable/textview_border"
+        android:text="@string/my_text2"
+        android:textColor="@color/verde"
+        android:textColorHint="@color/white"
+        android:textSize="32sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="166dp"
+        android:background="@drawable/textview_border"
+        android:text="@string/identificacion_datos"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="71dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="51dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hojita" />
+
+    <EditText
+        android:id="@+id/editTipoMaterial"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="254dp"
+        android:background="@drawable/cuadro_borde"
+        android:hint="Tipo de material:"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editCantidadMaterial"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/cuadro_borde"
+        android:hint="Cantidad:"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editFecha"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="429dp"
+        android:background="@drawable/cuadro_borde"
+        android:hint=" Fecha:"
+        android:inputType="date"
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnNavigate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="543dp"
+        android:text="Añadir Material"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:icon="@android:drawable/ic_menu_add"
+        app:iconPadding="@dimen/cardview_compat_inset_shadow" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -25,7 +25,37 @@
             android:exported="false" />
         <activity
             android:name=".Inicio"
-            android:exported="true">
+            android:exported="true"/>
+
+            <activity
+                android:name="com.example.ecorecicla.arbolverde"
+                android:exported="true" />
+            <activity
+                android:name="com.example.ecorecicla.Muta"
+                android:exported="true" />
+            <activity
+                android:name="com.example.ecorecicla.Register$Acebri"
+                android:exported="true" />
+            <activity
+                android:name="com.example.ecorecicla.anr"
+                android:exported="true" />
+
+            <activity
+                android:name="com.example.ecorecicla.identificaciondatos"
+                android:exported="true" />
+
+            <activity
+                android:name="com.example.ecorecicla.Ecopositiva"
+                android:exported="true" />
+            <activity
+                android:name="com.example.ecorecicla.IdentificacionDatos2"
+                android:exported="true" />
+        <activity android:name=".IdentificacionDatos2Activity"></activity>
+
+        <activity
+                android:name="com.example.ecorecicla.MainActivity"
+                android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
