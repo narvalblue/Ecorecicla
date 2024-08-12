@@ -2,9 +2,18 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-
     <color name="verde">#5A9909</color>
     <color name="verde2">#1E3303</color>
     <color name="gris">#4A4646</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Green">#F0FFF0</color>
+    <color name="Green2">#1E3303</color>
+    <color name="Green3">#5A9909</color>
+    <color name="Green4">#C4FF64</color>
+    <color name="MixGreen">#88DC65</color>
+    <color name="Blue">#014BA0</color>
+    <color name="tableColor">#E0E0E0</color>
+    <color  name= "tableColor2">#FFFFFF</color>
 
 </resources>
